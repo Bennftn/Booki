@@ -1,4 +1,4 @@
-/****** General ***********/
+/* General */
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -74,7 +74,7 @@ a {
 
 .navbar {
     display: flex;
-    flex-direction: row; /* alignement des deux catégories : hebergement et activités */
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
@@ -82,11 +82,11 @@ a {
 
 ul {
     display: flex;
-    list-style: none; /* retrait de la liste */
+    list-style: none;
 }
 
 .navbar-link {
-    margin: 0 25px; /* espacement des deux catégories entre elles : activités et hebergements */
+    margin: 0 25px;
     font-size: 15px;
 }
 
@@ -97,7 +97,7 @@ li a {
 
 li a:hover {
     color: var(--main-color);
-    border-top: 3px solid var(--main-color); /*bordure bleue qui apparait au dessus au survol de la souris*/
+    border-top: 3px solid var(--main-color);
 }
 
 .logo {
@@ -233,7 +233,7 @@ span .button-2 {
     font-size: 11px;
 }
 
-/****** Hebergements And Populaires ***********/
+/* Hebergements And Populaires */
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -246,7 +246,7 @@ span .button-2 {
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+/* Hebergements */
 
 .hebergements {
     width: 65%;
@@ -307,7 +307,7 @@ span .button-2 {
     align-items: flex-end;
 }
 
-/****** Populaires ***********/
+/* Populaires */
 .populaires {
     width: 32%;
 }
@@ -407,25 +407,25 @@ span .button-2 {
 /* footer */
 
 .footer {
-    background-color: var(--main-bg-color); /* probablement #F2F2F2 */
+    background-color: var(--main-bg-color);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
-    min-height: 163px; /* respecte la maquette sans casser */
-    flex-wrap: wrap; /* utile pour le responsive */
+    min-height: 163px;
+    flex-wrap: wrap;
 }
 
 .footer-bloc {
     display: flex;
     flex-direction: column;
-    width: 30%; /* ou 33% si tu veux strictement 3 blocs égaux */
+    width: 30%;
 }
 
 .footer-title h4 {
     margin: 0 0 10px 0;
     font-size: 16px;
-    color: black; /* à ajuster selon le thème */
+    color: black;
 }
 
 .footer-bloc a {
@@ -439,18 +439,3 @@ span .button-2 {
 .footer-bloc a:hover {
     text-decoration: underline;
 }
-
-
-
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
-/****** Media queries ***********/
-
-
-/* Medium devices (tablets, less/equal than 1024px) */
-
-
-/* Small devices (phones, less than 768px) */
-
-/* large device : large desktop */
-
